@@ -1,0 +1,201 @@
+/* src/styles.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  header {
+    background-color: #ffffff;
+    color: #0D5194;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .logo-section {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  header img.logo {
+    height: 50px;
+  }
+  
+  nav {
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav a {
+    color: #0D5194;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  nav a:hover {
+    color: #1172BA;
+  }
+  
+  main {
+    padding: 0;
+    overflow-x: hidden;
+  }
+  
+  .hero-image {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+  }
+  
+  .features ul {
+    list-style-type: none;
+  }
+  
+  .features li {
+    background: #f5f8fc;
+    border-left: 4px solid #0D5194;
+    margin: 10px 0;
+    padding: 10px;
+  }
+  
+  footer {
+    background-color: #0D5194;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  nav a:hover {
+    color: #1172BA;
+    text-decoration: none;
+    border-bottom: 2px solid #1172BA;
+  }
+  
+  .privacy-policy,
+  .terms-of-service {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+  }
+  
+  .privacy-policy header,
+  .terms-of-service header {
+    background: none;
+    box-shadow: none;
+    padding: 0;
+    margin-bottom: 30px;
+  }
+  
+  .privacy-policy header h1,
+  .terms-of-service header h1 {
+    color: #0D5194;
+    margin-bottom: 10px;
+  }
+  
+  .privacy-policy header p,
+  .terms-of-service header p {
+    color: #666;
+    font-size: 0.9rem;
+  }
+  
+  .privacy-policy .content,
+  .terms-of-service .content {
+    line-height: 1.6;
+  }
+  
+  .privacy-policy h2,
+  .terms-of-service h2 {
+    color: #0D5194;
+    margin: 30px 0 15px;
+    font-size: 1.8rem;
+  }
+  
+  .privacy-policy h3,
+  .terms-of-service h3 {
+    color: #1172BA;
+    margin: 25px 0 15px;
+    font-size: 1.4rem;
+  }
+  
+  .privacy-policy h4,
+  .terms-of-service h4 {
+    color: #1172BA;
+    margin: 20px 0 10px;
+    font-size: 1.2rem;
+  }
+  
+  .privacy-policy p,
+  .terms-of-service p {
+    margin-bottom: 15px;
+  }
+  
+  .privacy-policy ul,
+  .terms-of-service ul {
+    margin: 15px 0;
+    padding-left: 20px;
+  }
+  
+  .privacy-policy li,
+  .terms-of-service li {
+    margin-bottom: 10px;
+  }
+  
+  .privacy-policy a,
+  .terms-of-service a {
+    color: #1172BA;
+    text-decoration: none;
+  }
+  
+  .privacy-policy a:hover,
+  .terms-of-service a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Additional specific styles for Terms of Service */
+  .terms-of-service .content ul {
+    list-style-type: disc;
+    margin-left: 40px;
+  }
+  
+  .terms-of-service .content strong {
+    color: #0D5194;
+    font-weight: 600;
+  }
+  
+  .terms-of-service h2 {
+    border-bottom: 2px solid #f0f0f0;
+    padding-bottom: 10px;
+  }
+  
+  .terms-of-service section {
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  }
+  
