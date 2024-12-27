@@ -116,8 +116,7 @@ const PrivacyPolicy = () => {
           If you have any questions about this Privacy Policy, You can contact us:
         </p>
         <ul>
-          <li>By email: <a href="mailto:fictiondevelopers42@gmail.com">fictiondevelopers42@gmail.com</a></li>
-          <li>By visiting this page on our website: <a href="https://fictiondevelopers.com/" target="_blank" rel="noopener noreferrer">fictiondevelopers.com</a></li>
+          <li>By email: <a href="mailto:business.mama.app@gmail.com">business.mama.app@gmail.com</a></li>
         </ul>
       </div>
     </main>
